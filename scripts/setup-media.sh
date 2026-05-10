@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+bin/env bash
 # =============================================================================
 # Media Stack Service Integration Setup
 # Connects: Prowlarr -> Sonarr/Radarr, qBittorrent -> Sonarr/Radarr
@@ -82,4 +82,4 @@ curl -sf -X POST "$SONARR_URL/api/v3/notification" \
 
 echo
 log_ok "Media stack integration setup complete!"
-echo "Run this script again after adding API keys to services if needed."
+echo "Run this script again after adding API keys to services if needed.
